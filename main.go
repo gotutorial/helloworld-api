@@ -4,6 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/gorilla/mux"
+	"github.com/gorilla/handlers"
+	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
@@ -16,22 +18,44 @@ type Greeting struct {
 func main() {
 	router := mux.NewRouter()
 	router.HandleFunc("/hello", sayHello).Methods("GET")
-	log.Fatal(http.ListenAndServe(fmt.Sprintf(":%v", getPort()), router))
+	router.HandleFunc("/swagger.json", GetSwagger).Methods("GET")
+
+	originsOk := handlers.AllowedOrigins([]string{"*"})
+	log.Fatal(http.ListenAndServe(getPort(), handlers.CORS(originsOk)(router)))
 
 }
 
-func sayHello(response http.ResponseWriter, request *http.Request) {
+func sayHello(w http.ResponseWriter, r *http.Request) {
 	greeting := &Greeting{
 		Statement: "Hello World!",
 	}
-	json.NewEncoder(response).Encode(greeting)
+	json.NewEncoder(w).Encode(greeting)
 }
 
-func getPort() string {
-	if configuredPort := os.Getenv("PORT"); configuredPort == "" {
-		return "3000"
-	} else {
-		return configuredPort
+func GetSwagger(w http.ResponseWriter, r *http.Request) {
+
+	b,_ := ioutil.ReadFile("swagger.json");
+
+	rawIn := json.RawMessage(string(b))
+	var objmap map[string]*json.RawMessage
+	err := json.Unmarshal(rawIn, &objmap)
+	if err != nil {
+		fmt.Println(err)
 	}
+	fmt.Println(objmap)
+
+	json.NewEncoder(w).Encode(objmap)
+}
+
+
+func getPort() string {
+	var port string
+	if configuredPort := os.Getenv("PORT"); configuredPort == "" {
+		port = "3000"
+	} else {
+		port = configuredPort
+	}
+
+	return fmt.Sprintf(":%v", port)
 }
 

@@ -2,9 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0ac0d29-93f8-4688-95a2-e9f2633e25c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/glide.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/glide.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glide.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/glide.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/.github/release-drafter.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/bench_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/context.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/context_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/example_authentication_middleware_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/example_route_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/middleware.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/middleware_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/mux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/mux_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/old_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/regexp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/route.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/test_helpers.go" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,26 +45,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="2" />
-          <entry key="yaml" value="2" />
+          <entry key="go" value="11" />
+          <entry key="json" value="2" />
+          <entry key="lock" value="1" />
+          <entry key="yaml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="2" />
-          <entry key="YAML" value="2" />
+          <entry key="Go" value="11" />
+          <entry key="JSON" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="137" />
-          <entry key="yaml" value="80" />
+          <entry key="go" value="374" />
+          <entry key="json" value="57" />
+          <entry key="yaml" value="135" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="137" />
-          <entry key="YAML" value="80" />
+          <entry key="Go" value="374" />
+          <entry key="JSON" value="57" />
+          <entry key="YAML" value="135" />
         </counts>
       </usages-collector>
     </session>
@@ -49,13 +78,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.go">
+        <entry file="file://$PROJECT_DIR$/swagger.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-              <folding>
-                <element signature="e#24#135#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="230">
+              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -63,8 +89,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/glide.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" selection-start-column="33" selection-end-column="33" />
+            <state relative-caret-position="45">
+              <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+              <folding>
+                <element signature="e#14#149#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,8 +125,13 @@
       <list>
         <option value="$PROJECT_DIR$/nethttp-sample.go" />
         <option value="$PROJECT_DIR$/nethttp-example/main.go" />
+        <option value="$PROJECT_DIR$/swaggerui/swagger_test.go" />
+        <option value="$PROJECT_DIR$/docs.go" />
+        <option value="$PROJECT_DIR$/swaggerui/swagger.json" />
+        <option value="$PROJECT_DIR$/swaggerui/swagger.go" />
         <option value="$PROJECT_DIR$/glide.yaml" />
         <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/swagger.json" />
       </list>
     </option>
   </component>
@@ -101,8 +144,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="45" />
     <option name="y" value="23" />
-    <option name="width" value="1249" />
-    <option name="height" value="733" />
+    <option name="width" value="1288" />
+    <option name="height" value="842" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -116,11 +159,6 @@
             <path>
               <item name="helloworld-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="helloworld-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="helloworld-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="helloworld-api" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="helloworld-api" type="b2602c69:ProjectViewProjectNode" />
@@ -144,6 +182,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/swagger-docs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -159,15 +198,15 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="23" width="1249" height="733" extended-state="0" />
+    <frame x="45" y="23" width="1288" height="842" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24937862" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24157304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32847896" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.2434663" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -196,20 +235,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/swaggerui/swagger_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glide.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger-docs/docs.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/swaggo/swag/swagger.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swaggerui/swagger.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+          <folding>
+            <element signature="e#19#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/glide.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        <state relative-caret-position="45">
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="293">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
           <folding>
-            <element signature="e#24#135#0" expanded="true" />
+            <element signature="e#14#149#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
         </state>
       </provider>
     </entry>

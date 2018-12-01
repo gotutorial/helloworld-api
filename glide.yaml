@@ -1,1 +1,4 @@
 package: github.com/gotutorial/helloworld-api
+import:
+  - package: "github.com/gorilla/mux"
+  - package: "github.com/stretchr/testify/assert"

@@ -1,6 +1,12 @@
-hash: 83d69ab078593d89e7c5bec21bad779f87b8531327cd83a886cfb6e21eadb461
-updated: 2018-12-01T09:15:24.191673-05:00
+hash: 8a2192d481fccb56d2088e642bec251fdff70aaf838dd54f713e7a1b6be83195
+updated: 2018-12-01T10:18:09.737112-05:00
 imports:
+- name: github.com/gorilla/handlers
+  version: 350d97a79266938cd77a9192b7d995132d4e2b5b
 - name: github.com/gorilla/mux
   version: 3d80bc801bb034e17cae38591335b3b1110f1c47
+- name: github.com/stretchr/testify
+  version: 8019298d9fa5a04fc2ad10ae03349df3483096a6
+  subpackages:
+  - assert
 testImports: []
