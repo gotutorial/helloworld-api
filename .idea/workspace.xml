@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0ac0d29-93f8-4688-95a2-e9f2633e25c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/swagger.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/glide.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/glide.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/glide.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/.github/release-drafter.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/AUTHORS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/ISSUE_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/bench_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/context.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/context_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/doc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/example_authentication_middleware_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/example_route_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/middleware.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/middleware_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/mux.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/mux_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/old_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/regexp.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/route.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/test_helpers.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger.json" beforeDir="false" afterPath="$PROJECT_DIR$/swagger.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/swagger.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+            <state relative-caret-position="150">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -142,7 +118,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
+    <option name="x" value="67" />
     <option name="y" value="23" />
     <option name="width" value="1288" />
     <option name="height" value="842" />
@@ -198,15 +174,15 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="23" width="1288" height="842" extended-state="0" />
+    <frame x="67" y="23" width="1288" height="842" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24157304" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24157304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.2434663" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.2434663" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -288,8 +264,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/swagger.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        <state relative-caret-position="150">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
